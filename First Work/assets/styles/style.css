@@ -91,3 +91,32 @@ h2._white:after{
 .benefit__h3{
     margin-bottom: 22px;
 }
+
+.container2 {
+    background-image: url("../images/downloads.jpg");
+    background-size: cover;
+}
+
+h2._white{
+}
+
+p.benefit__p1{
+    font-family: Raleway Light, sans-serif;
+    margin-bottom: 37px;
+    color: white;
+    font-size: 14px;
+}
+
+div.benefit__downloads{
+    color: white;
+    font-family: 'Open Sans SemiBold', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid white ;
+    display: inline-flex;
+    height: 38px;
+    width: 131px;
+}
+
+
+
