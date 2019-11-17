@@ -93,18 +93,22 @@ h2._white:after{
 }
 
 .container2 {
-    background-image: url("../images/downloads.jpg");
+    /*background-image: url("../images/u25_state0.jpg");*/
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/u25_state0.jpg");
     background-size: cover;
 }
 
 h2._white{
+    padding-top: 75px;
+    margin-bottom: 32px;
 }
 
 p.benefit__p1{
-    font-family: Raleway Light, sans-serif;
-    margin-bottom: 37px;
+    font-family: 'Raleway Light', sans-serif;
+    margin-bottom: 33px;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
+    opacity: 0.5;
 }
 
 div.benefit__downloads{
@@ -113,10 +117,356 @@ div.benefit__downloads{
     font-size: 15px;
     text-align: center;
     border: 2px solid white ;
-    display: inline-flex;
+    display: inline-block;
     height: 38px;
     width: 131px;
+    margin-bottom: 63px;
 }
 
+.container3{
+    background-color: #000000;
+    background-size: cover;
+    max-height: 98px;
+}
+div.benefit__image-icon{
+    padding-top: 37px;
+    padding-bottom: 15px;
+    color: #cccccc;
+}
+svg.facebook{
+    height: 23px;
+    width: 13px;
+    padding-right: 32px;
+}
+svg.twitter{
+    height: 20px;
+    width: 20px;
+    padding-right: 31px;
+}
+svg.google{
+    height: 23px;
+    width: 22px;
+    padding-right: 24px;
+}
+svg.pinterest{
+    height: 21px;
+    width: 21px;
+    padding-right: 29px;
+}
+svg.instagram{
+    height: 21px;
+    width: 22px;
+    padding-right: 29px;
+}
+svg.stumbleupon{
+    height: 24px;
+    width: 27px;
+    padding-right: 29px;
+}
+svg.rss{
+    height: 23px;
+    width: 19px;
+}
+p.benefit_p3{
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+div.container1{
+    max-height: 880px;
+    max-width: 0 auto;
+    background-color: #f5f5f5;
+}
+h2.pricing_options{
+    padding-top: 105px;
+}
+div.pricing{
+    display: inline-flex;
+    margin-bottom: 96px;
+}
+div.Basic{
+    margin-right: 40px;
+    margin-top: 115px;
+}
+div.Basic1{
+    background-color: #333333;
+    height: 59px;
+    width: 343px;
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 1px;
+}
+div.Basic2{
+    background-color: #333333;
+    height: 100px;
+    width: 343px;
+    font-family: "Raleway Bold", sans-serif;
+    color: #ffffff;
+    font-size: 88px;
+    margin-bottom: 1px;
+}
+div.Basic3{
+    background-color: #333333;
+    height: 51px;
+    width: 343px;
+    font-family: "Open Sans SemiBold", sans-serif ;
+}
+div.Basic4{
+    height: 5px;
+    width: 343px;
+    background-color: #ff8c2d;
+    margin-bottom: 1px;
+}
+div.Basic5{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
+div.Basic6{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
+div.Basic7{
+     text-transform: uppercase;
+     background-color: white;
+     height: 40px;
+     width: 343px;
+     font-family: "Open Sans Regular", sans-serif;
+     font-size: 14px;
+     color: #86878b;
+     margin-bottom: 1px;
+}
+div.Basic8{
+      text-transform: uppercase;
+      background-color: white;
+      height: 40px;
+      width: 343px;
+      font-family: "Open Sans Regular", sans-serif;
+      font-size: 14px;
+      color: #86878b;
+      margin-bottom: 1px;
+}
+div.Basic9{
+       text-transform: uppercase;
+       background-color: white;
+       height: 40px;
+       width: 343px;
+       font-family: "Open Sans Regular", sans-serif;
+       font-size: 14px;
+       color: #86878b;
+       margin-bottom: 1px;
+}
+div.Basic10{
+        text-transform: uppercase;
+        background-color: white;
+        height: 40px;
+        width: 343px;
+        font-family: "Open Sans Regular", sans-serif;
+        font-size: 14px;
+        color: #86878b;
+        margin-bottom: 1px;
+}
+div.Professional{
+     margin-top: 80px;
+}
+div.Professional1{
+    background-color: #333333;
+    height: 59px;
+    width: 343px;
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 1px;
+}
+div.Professional2{
+    background-color: #333333;
+    height: 100px;
+    width: 343px;
+    font-family: "Raleway Bold", sans-serif;
+    color: #ffffff;
+    font-size: 88px;
+    margin-bottom: 1px;
+}
+div.Professional3{
+    background-color: #333333;
+    height: 51px;
+    width: 343px;
+    font-family: "Open Sans SemiBold", sans-serif ;
+}
+div.Professional4{
+    height: 40px;
+    width: 343px;
+    background-color: #ff8c2d;
+    margin-bottom: 1px;
+    font-family: "Open Sans Bold", sans-serif;
+    color: white;
+    font-size: 14px;
+}
+div.Professional5{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
+div.Professional6{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
+div.Professional7{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
+div.Professional8{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
+div.Professional9{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
+div.Professional10{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
 
-
+div.Enterprise{
+    margin-top: 115px;
+    margin-left: 40px;
+}
+div.Enterprise1{
+    background-color: #333333;
+    height: 59px;
+    width: 343px;
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 1px;
+}
+div.Enterprise2{
+    background-color: #333333;
+    height: 100px;
+    width: 343px;
+    font-family: "Raleway Bold", sans-serif;
+    color: #ffffff;
+    font-size: 88px;
+    margin-bottom: 1px;
+}
+div.Enterprise3{
+    background-color: #333333;
+    height: 51px;
+    width: 343px;
+    font-family: "Open Sans SemiBold", sans-serif ;
+}
+div.Enterprise4{
+    height: 5px;
+    width: 343px;
+    background-color: #ff8c2d;
+    margin-bottom: 1px;
+}
+div.Enterprise5{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
+div.Enterprise6{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
+div.Enterprise7{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
+div.Enterprise8{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
+div.Enterprise9{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
+div.Enterprise10{
+    text-transform: uppercase;
+    background-color: white;
+    height: 40px;
+    width: 343px;
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 1px;
+}
