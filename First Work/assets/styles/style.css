@@ -5,7 +5,7 @@
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 body{
     color: #86878b;
@@ -39,6 +39,7 @@ img.axit{
 .container0{
     background-image: url("../images/u24_state0.png");
     display: grid;
+    background-size: cover;
 }
 img.axit2{
     float: left;
@@ -192,35 +193,42 @@ svg.facebook{
     height: 23px;
     width: 13px;
     padding-right: 32px;
+    box-sizing: unset;
 }
 svg.twitter{
     height: 20px;
     width: 20px;
     padding-right: 31px;
+    box-sizing: unset;
 }
 svg.google{
     height: 23px;
     width: 22px;
     padding-right: 24px;
+    box-sizing: unset;
 }
 svg.pinterest{
     height: 21px;
     width: 21px;
     padding-right: 29px;
+    box-sizing: unset;
 }
 svg.instagram{
     height: 21px;
     width: 22px;
     padding-right: 29px;
+    box-sizing: unset;
 }
 svg.stumbleupon{
     height: 24px;
     width: 27px;
     padding-right: 29px;
+    box-sizing: unset;
 }
 svg.rss{
     height: 23px;
     width: 19px;
+    box-sizing: unset;
 }
 p.benefit_p3{
     font-family: "Open Sans Regular", sans-serif;
@@ -640,6 +648,7 @@ div.contact_base{
     cursor: pointer;
     box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
     margin-bottom: 83px;
+    margin-left: 500px;
 }
 .contact__row{
     margin-bottom: 45px;
