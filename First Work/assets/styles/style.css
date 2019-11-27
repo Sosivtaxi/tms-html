@@ -36,18 +36,21 @@ img.axit{
 .contact1{
     padding-left: 50px;
 }
-/*.container0{*/
-/*    background-image: url("../images/u24_state0.png");*/
-/*}*/
-/*img.axit2{*/
-/*    float: left;*/
-/*    padding-left: 150px;*/
-/*    padding-top: 110px;*/
-/*}*/
-/*.modern{*/
-/*    text-align: left;*/
+.container0{
+    background-image: url("../images/u24_state0.png");
+    display: grid;
+}
+img.axit2{
+    float: left;
+    padding-left: 150px;
+    padding-top: 110px;
+}
+h2.modern {
+    text-align: left;
+    padding-left: 150px;
+}
 
-.container4{
+.container5{
     height: 105px;
 }
 h3.social{
