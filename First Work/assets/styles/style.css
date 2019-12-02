@@ -10,33 +10,56 @@
 body{
     color: #86878b;
 }
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
 header{
-    height: 70px;
-    background-color: black;
-    background-position: center;
+    /*height: 70px;*/
+    background-color: #000000;
+    /*background-position: center;*/
 }
+
+header .container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
 img.axit{
-    padding-left: 150px;
-    padding-top: 21px;
+    /*padding-left: 150px;*/
+    /*padding-top: 21px;*/
 }
-.menu{
-    padding-left: 1000px;
-    display: inline-flex;
+.menu {
+    display: flex;
+    align-items: center;
+    /*padding-left: 1000px;*/
+    /*display: inline-flex;*/
     font-family: "Open Sans SemiBold", sans-serif;
-    vertical-align: super;
+    /*vertical-align: super;*/
+    margin: 0 -20px;
 }
-.about{
-    padding-left: 50px;
+
+.menu a {
+    text-decoration: none;
+    color: #86878b;
+    margin: 0 20px;
 }
-.pricing1{
-    padding-left: 50px;
-}
-.reviews{
-    padding-left: 50px;
-}
-.contact1{
-    padding-left: 50px;
-}
+
+/*.about{*/
+/*    padding-left: 50px;*/
+/*}*/
+/*.pricing1{*/
+/*    padding-left: 50px;*/
+/*}*/
+/*.reviews{*/
+/*    padding-left: 50px;*/
+/*}*/
+/*.contact1{*/
+/*    padding-left: 50px;*/
+/*}*/
 .container0{
     background-image: url("../images/u24_state0.png");
     display: grid;
