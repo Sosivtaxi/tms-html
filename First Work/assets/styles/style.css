@@ -23,6 +23,7 @@ img.axit{
     padding-left: 1000px;
     display: inline-flex;
     font-family: "Open Sans SemiBold", sans-serif;
+    vertical-align: super;
 }
 .about{
     padding-left: 50px;
@@ -46,19 +47,90 @@ img.axit2{
     padding-left: 150px;
     padding-top: 110px;
 }
-h2.modern {
+h2.modern{
     text-align: left;
     padding-left: 150px;
 }
-
+h2.modern:after{
+    margin: 40px 0;
+    margin-bottom: unset;
+}
+div._modern{
+    margin-left: 150px;
+    margin-top: 47px;
+}
+div.modern__contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    padding-right: 149px;
+    padding-top: 140px;
+}
+div.modern__free{
+    font-family: "Open Sans Bold", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #f5f5f5;
+    border-radius: 3px 3px 0px 0px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    display: flex;
+}
+span.modern__free{
+    color: #ff8c2c;
+    font-family: "Open Sans Bold", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+div.contact__cell1{
+    background-color: white;
+    width: 380px;
+    height: 254px;
+}
+div.contact__row1{
+    margin: 0;
+}
+.button1{
+    display: inline-flex;
+    min-width: 380px;
+    min-height: 54px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid #ff8c2c;
+    background-color: #ff8c2c;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 0px 0px 3px 3px;
+    cursor: pointer;
+    font-family: "Open Sans SemiBold", sans-serif;
+}
+.contact__field1{
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
 .container5{
     height: 105px;
+    box-shadow: 0px 3px 2px -1px rgba(0,0,0,0.38);
+}
+div.benefit__image-icon4{
+    display: inline-flex;
+    float: right;
 }
 h3.social{
     font-family: "Open Sans Bold", sans-serif;
     font-size: 20px;
     padding-left: 150px;
     text-align: left;
+    padding-top: 23px;
 }
 p.p4{
     padding-left: 150px;
@@ -80,7 +152,13 @@ h2:after{
     background-color: #ff8c2c;
     margin: 23px auto 0;
 }
-
+p.modern{
+    font-family: 'Raleway Light', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 150px;
+}
 h3{
     color: #333333;
     font-size: 20px;
@@ -101,6 +179,85 @@ h2._white{
 
 h2._white:after{
     background-color: white;
+}
+.container6{
+    background-color: #f5f5f5;
+    display: inline-flex;
+}
+div.tab{
+    margin-top: 147px;
+    margin-left: 143px;
+}
+div.tab1{
+    border: 1px solid #ff8c2c;
+    height: 110px;
+    width: 110px;
+    background: #ff8c2c;
+    margin-bottom: 1px;
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+div.tab2{
+    border: 1px solid #333333;
+    height: 110px;
+    width: 110px;
+    background: #333333;
+    margin-bottom: 1px;
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+div.tab3{
+    border: 1px solid #333333;
+    height: 110px;
+    width: 110px;
+    background: #333333;
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+div.tab4{
+    margin-left: 101px;
+    margin-top: 156px;
+}
+h3.tab{
+   margin-bottom: 58px;
+}
+p.tab{
+    margin-bottom: 51px;
+}
+button.tab{
+    display: inline-flex;
+    min-width: 119px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid #ff8c2c;
+    background-color: #ff8c2c;
+    height: 44px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+img.tab{
+    margin-left: 355px;
+    margin-top: 203px;
 }
 
 .container{
@@ -409,6 +566,7 @@ div.Professional4{
     font-size: 14px;
     align-items: center;
     display: grid;
+    text-transform: uppercase;
 }
 div.Professional5{
     text-transform: uppercase;
